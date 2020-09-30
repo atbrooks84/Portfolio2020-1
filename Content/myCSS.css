@@ -1,0 +1,43 @@
+﻿.at-header{
+    background-image: url('/Images/ATB-BW-Circle.png');    
+    background-repeat: no-repeat;    
+}
+
+@media (max-width: 480px) {
+    .at-header {
+        background-size: 200px;
+    }
+
+    .page-header {
+        min-height: 55vh;
+    }
+
+
+    .navbar-transparent {
+        padding-top: 0 !important;
+    }
+
+    .top-text-move {
+        position: relative;
+        top: 135px !important;
+    }
+    
+}
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .at-header {
+        background-size: 500px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .at-header {
+        background-size: 800px;
+    }
+}
+
+.top-text-move{
+    position: relative;
+    top: 200px;
+}
