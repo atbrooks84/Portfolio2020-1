@@ -83,6 +83,13 @@
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\financiallogo.png" />
+    <Content Include="Images\icons8-c-sharp-logo-96.png" />
+    <Content Include="Images\icons8-css3-96.png" />
+    <Content Include="Images\icons8-html-5-96.png" />
+    <Content Include="Images\icons8-javascript-96-shield.png" />
+    <Content Include="Images\icons8-javascript-96.png" />
+    <Content Include="Images\icons8-sql-96.png" />
+    <Content Include="Images\icons8-visual-studio-2019-96.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-selectpicker.js" />
