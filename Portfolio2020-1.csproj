@@ -74,11 +74,15 @@
     <Content Include="Images\Adam_Brooks_BW.jpg" />
     <Content Include="Images\android-chrome-192x192.png" />
     <Content Include="Images\android-chrome-512x512.png" />
+    <Content Include="Images\apilogo.png" />
     <Content Include="Images\apple-touch-icon.png" />
     <Content Include="Images\ATB-BW-Circle.png" />
+    <Content Include="Images\bloglogo.png" />
+    <Content Include="Images\bugtrackerlogo.png" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Images\financiallogo.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-selectpicker.js" />
