@@ -50,3 +50,10 @@ top-button:hover{
     height: 60px;
     width: 60px;
 }
+
+.clouds{
+    background-image: url(/Images/beautiful-blue-sky-with-some-clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
