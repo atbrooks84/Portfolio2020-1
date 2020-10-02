@@ -117,6 +117,7 @@
     <Content Include="Fonts\nucleo-icons.woff" />
     <Content Include="Fonts\nucleo-icons.woff2" />
     <Content Include="Images\site.webmanifest" />
+    <Content Include="Files\Resume.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
