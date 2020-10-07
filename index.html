@@ -108,7 +108,7 @@
     <!--Main content-->
     <div class="main">
         <!--About Me-->
-        <div class="section section-header cd-section" id="about">
+        <div class="section section-header cd-section" id="headers">
             <div class="header-3">
                 <div class="page-carousel">
                     <div class="filter"></div>
@@ -196,12 +196,15 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!--<div class="row">
             <div class="col-12 text-center">
                 <a href="#top"><button class="btn btn-round btn-neutral">Back to top</button></a>
             </div>
-        </div>
+        </div>-->
     </div>
+
+
+
     <!--Projects-->
     <div class="section secion-blog cd-section" id="projects">
         <div class="blog-4">
@@ -969,35 +972,35 @@
         //scroll
         // Select all links with hashes
         $('a[href*="#"]')
-            // Remove links that don't actually link to anything
+            // remove links that don't actually link to anything
             .not('[href="#"]')
             .not('[href="#0"]')
             .click(function (event) {
-                // On-page links
+                // on-page links
                 if (
                     location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
                     &&
                     location.hostname == this.hostname
                 ) {
-                    // Figure out element to scroll to
+                    // figure out element to scroll to
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
+                    // does a scroll target exist?
                     if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
+                        // only prevent default if animation is actually gonna happen
+                        event.preventdefault();
                         $('html, body').animate({
-                            scrollTop: target.offset().top
+                            scrolltop: target.offset().top
                         }, 1000, function () {
-                            // Callback after animation
-                            // Must change focus!
+                            // callback after animation
+                            // must change focus!
                             var $target = $(target);
                             $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
+                            if ($target.is(":focus")) { // checking if the target was focused
                                 return false;
                             } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
+                                $target.attr('tabindex', '-1'); // adding tabindex for elements not focusable
+                                $target.focus(); // set focus again
                             };
                         });
                     }
